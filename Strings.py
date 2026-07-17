@@ -104,6 +104,31 @@ Problem 4 - Longest word
 #
 # print(longest_word("I love learning Python programming"))
 
+"""
+Valid Anagram
+"""
+
+# def check_anagram(s1, s2):
+#     s1 = s1.lower()
+#     s2 = s2.lower()
+#
+#     if len(s1) != len(s2):
+#         return False
+#
+#     freq = {}
+#     for ch in s1:
+#         freq[ch] = freq.get(ch, 0) + 1
+#
+#     for ch in s2:
+#         if ch not in freq or freq[ch] == 0:
+#             return False
+#         freq[ch] -= 1
+#     return True
+#
+# print(check_anagram("listen", "silent"))
+
+
+
 
 
 
