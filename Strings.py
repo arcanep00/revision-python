@@ -48,7 +48,7 @@ Problem 1: Reverse words
 # print(reverse_words("Python is awesome"))
 
 """
-Question 2: First Non-Repeating Character
+Problem 2: First Non-Repeating Character
 """
 
 # def first_non_repeating_character(s):
@@ -66,7 +66,9 @@ Question 2: First Non-Repeating Character
 #
 # print(first_non_repeating_character("aabbccdde"))
 
-# Question 3: String Compression
+"""
+Problem 3: String Compression
+"""
 
 # def compress_string(s):
 #     if not s:
@@ -86,6 +88,26 @@ Question 2: First Non-Repeating Character
 #     return result
 #
 # print(compress_string("aaabbcccdaa"))
+
+"""
+Problem 4 - Longest word
+"""
+
+# def longest_word(s):
+#     longest = ""
+#     words = s.split()
+#
+#     for word in words:
+#         if len(word) > len(longest):
+#             longest = word
+#     return longest
+#
+# print(longest_word("I love learning Python programming"))
+
+
+
+
+
 
 
 
