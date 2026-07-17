@@ -47,6 +47,30 @@ Problem 1: Reverse words
 #
 # print(reverse_words("Python is awesome"))
 
+"""
+Question 2: First Non-Repeating Character
+"""
+
+# def first_non_repeating_character(s):
+#     dict = {}
+#     for ch in s:
+#         if ch in dict:
+#             dict[ch] += 1
+#         else:
+#             dict[ch] = 1
+#
+#     for ch in dict:
+#         if dict[ch] == 1:
+#             return ch
+#     return None
+#
+# print(first_non_repeating_character("aabbccdde"))
+
+# Question 3: String Compression
+
+def compress_string(s):
+    result = ""
+    for ch in s:
 
 
 
