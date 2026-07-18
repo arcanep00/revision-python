@@ -37,6 +37,25 @@ remove duplicates -
 #
 # print(remove_duplicates([1, 2, 2, 3, 1, 4, 5, 4]))
 
+"""
+rotate list
+"""
+#
+# def rotate_list(lst, k):
+#     n = len(lst)
+#     k = k % n
+#
+#     for i in range(k):
+#         value = lst.pop()
+#         lst.insert(0, value)
+#
+#     return lst
+#
+# print(rotate_list([1, 2, 3, 4, 5], 2))
+
+
+
+
 
 
 
