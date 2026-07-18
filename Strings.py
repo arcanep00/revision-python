@@ -1,13 +1,3 @@
-# number pattern
-
-# n = 5
-# for i in range(1, n):
-#     for j in range(1, i + 1):
-#         print(j , end=" ")
-#     print()
-#
-#
-
 # s = "Python"
 #
 # s = "J" + s[1:]
@@ -126,6 +116,9 @@ Valid Anagram
 #     return True
 #
 # print(check_anagram("listen", "silent"))
+
+
+
 
 
 
