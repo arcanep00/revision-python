@@ -58,7 +58,37 @@ Pyramid -
 #         print("*", end="")
 #     print()
 
+"""
+Simple circle pattern - 
 
+        *********
+     ***************
+   *******************
+  *********************
+ ***********************
+ ***********************
+ ***********************
+  *********************
+   *******************
+     ***************
+        *********
+"""
+
+
+radius = 8
+
+for i in range(2 * radius + 1):
+    for j in range(2 * radius + 1):
+        x = i - radius
+        y = j - radius
+
+        distance = x*x + y*y
+
+        if radius*radius - radius <= distance <= radius*radius + radius:
+            print("*", end=" ")
+        else:
+            print(" ", end=" ")
+    print()
 
 
 
